@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/IndSpace/static/css/main.9eea17d2.chunk.css",
+    "main.css": "/IndSpace/static/css/main.bbac6d21.chunk.css",
     "main.js": "/IndSpace/static/js/main.74a2b909.chunk.js",
     "main.js.map": "/IndSpace/static/js/main.74a2b909.chunk.js.map",
     "runtime-main.js": "/IndSpace/static/js/runtime-main.cf533a9f.js",
@@ -8,15 +8,15 @@
     "static/js/2.69dac75e.chunk.js": "/IndSpace/static/js/2.69dac75e.chunk.js",
     "static/js/2.69dac75e.chunk.js.map": "/IndSpace/static/js/2.69dac75e.chunk.js.map",
     "index.html": "/IndSpace/index.html",
-    "precache-manifest.60f8a1bd74a962bf7d7324e7dffb7f10.js": "/IndSpace/precache-manifest.60f8a1bd74a962bf7d7324e7dffb7f10.js",
+    "precache-manifest.9d672bcc9a2c31f9ec775fe1df4dfa4d.js": "/IndSpace/precache-manifest.9d672bcc9a2c31f9ec775fe1df4dfa4d.js",
     "service-worker.js": "/IndSpace/service-worker.js",
-    "static/css/main.9eea17d2.chunk.css.map": "/IndSpace/static/css/main.9eea17d2.chunk.css.map",
+    "static/css/main.bbac6d21.chunk.css.map": "/IndSpace/static/css/main.bbac6d21.chunk.css.map",
     "static/js/2.69dac75e.chunk.js.LICENSE.txt": "/IndSpace/static/js/2.69dac75e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cf533a9f.js",
     "static/js/2.69dac75e.chunk.js",
-    "static/css/main.9eea17d2.chunk.css",
+    "static/css/main.bbac6d21.chunk.css",
     "static/js/main.74a2b909.chunk.js"
   ]
 }
