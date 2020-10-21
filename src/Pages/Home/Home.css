@@ -1,14 +1,23 @@
-.c_initialPage {
+.c_initialPage__Header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  color: #a3b73a;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.c_initialPage__Back {
   height: 100vh;
   background-color: #1c1c1c;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #a3b73a;
 }
 
 .c_initialPage__Title {
-  color: #a3b73a;
   text-align: center;
 }
 
