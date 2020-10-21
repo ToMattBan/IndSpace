@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Home from "./Pages/Home";
-import Login from "./Pages/Login";
-import Pdc from "./Pages/Pdc";
+import Home from "./Pages/Home/Home";
+import Login from "./Pages/Login/Login";
+import Pdc from "./Pages/Pdc/Pdc";
+import "./global.css";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(

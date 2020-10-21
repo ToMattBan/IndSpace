@@ -1,0 +1,17 @@
+.c_initialPage {
+  height: 100vh;
+  background-color: #1c1c1c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c_initialPage__Title {
+  color: #a3b73a;
+  text-align: center;
+}
+
+.c_initialPage__TitleName {
+  font-size: 60px;
+}

@@ -17,12 +17,11 @@
   "scripts": {
     "start": "npm run pWatch & npm run startProject",
     "startProject": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "npx prettier --write ./src && gh-pages -d build",
+    "deploy": "npm run build && gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "pWatch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}"
+    "pWatch": "onchange ./src -- prettier --write --ignore-unknown {{changed}}"
   },
   "eslintConfig": {
     "extends": "react-app"
