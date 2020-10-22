@@ -1,10 +1,19 @@
 import React, { Fragment } from "react";
+import StripItems from "../../Components/StripItems";
 import "./Home.css";
+import { sugestions, sugestionLogged } from "../../Data/mock.js";
 
-const Sugestions = () => {
+const Sugestions = (props) => {
   return (
     <Fragment>
-      <h1>Oi</h1>
+      {props.isLogged === "true" &&
+        sugestionLogged.map((item, key) => (
+          <StripItems content={item} key={key} />
+        ))}
+
+      {sugestions.map((item, key) => (
+        <StripItems key={key} content={item} />
+      ))}
     </Fragment>
   );
 };

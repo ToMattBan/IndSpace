@@ -1,0 +1,10 @@
+.c_Header {
+  top: 0;
+  padding: 8px;
+  display: flex;
+  color: #a3b73a;
+  position: sticky;
+  align-items: center;
+  background-color: #1c1c1c;
+  justify-content: space-between;
+}

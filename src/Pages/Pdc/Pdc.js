@@ -1,16 +1,18 @@
 import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
+import Header from "../../Components/Header";
 
 const Pdc = () => {
+  var isLogged = localStorage.getItem("isLogged");
+
+  if (!isLogged) {
+    localStorage.setItem("isLogged", "false");
+    isLogged = false;
+  }
+
   return (
     <Fragment>
+      <Header isLogged={isLogged} />
       <h1>Aqui é o perfil do produtor de conteúdo</h1>
-      <div>
-        <Link to="/IndSpace">Aqui é a home</Link>
-      </div>
-      <div>
-        <Link to="/IndSpace/login">Aqui é o login</Link>
-      </div>
     </Fragment>
   );
 };
