@@ -6,11 +6,13 @@ import Header from "../../Components/Header";
 
 const Home = () => {
   var isLogged = localStorage.getItem("isLogged");
-
-  if (!isLogged) {
+  console.log(isLogged);
+  if (isLogged === null || isLogged === "false") {
     localStorage.setItem("isLogged", "false");
-    isLogged = false;
+    isLogged = "false";
   }
+
+  console.log(isLogged);
 
   return (
     <Fragment>
