@@ -8,3 +8,11 @@
   background-color: #1c1c1c;
   justify-content: space-between;
 }
+
+.c-stripItems img {
+  width: 100%;
+}
+
+.c-stripItems__Name {
+  color: #a3b73a;
+}

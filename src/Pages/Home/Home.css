@@ -1,5 +1,18 @@
+@keyframes bigLogo {
+  0% {
+    height: 100vh;
+  }
+  50% {
+    height: 100vh;
+  }
+  100% {
+    height: 30vh;
+  }
+}
+
 .c_initialPage__Back {
-  height: 100vh;
+  animation: bigLogo 3s;
+  height: 30vh;
   display: flex;
   color: white;
   color: #a3b73a;

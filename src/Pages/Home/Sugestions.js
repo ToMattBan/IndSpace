@@ -1,11 +1,11 @@
-import React, { Fragment } from "react";
+import React from "react";
 import StripItems from "../../Components/StripItems";
 import "./Home.css";
 import { sugestions, sugestionLogged } from "../../Data/mock.js";
 
 const Sugestions = (props) => {
   return (
-    <Fragment>
+    <div>
       {props.isLogged === "true" &&
         sugestionLogged.map((item, key) => (
           <StripItems content={item} key={key} />
@@ -14,7 +14,7 @@ const Sugestions = (props) => {
       {sugestions.map((item, key) => (
         <StripItems key={key} content={item} />
       ))}
-    </Fragment>
+    </div>
   );
 };
 
