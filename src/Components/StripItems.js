@@ -9,11 +9,16 @@ const StripItems = (props) => {
   const items = content.items;
 
   return (
-    <div className="c-stripItems o-wrapper o-layout--sm _pvsm">
+    <div className="c-stripItems o-wrapper _pvsm">
       <h1 className="c-stripItems__Name">{name}</h1>
-      <div className="o-layout--sm@tabletV _df">
-        {items.map((item, key) => (
-          <div key={key} className="o-layout__item _4/12">
+      <div className="o-layout--sm _df _jcc">
+        {items.map((item, index) => (
+          <div
+            key={index}
+            className={`${
+              index === 3 ? "_dn _db@tabletV" : ""
+            } o-layout__item _3/12 _4/12@tabletV`}
+          >
             <VideoHolder item={item} />
           </div>
         ))}

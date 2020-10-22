@@ -16,3 +16,11 @@
 .c-stripItems__Name {
   color: #a3b73a;
 }
+
+.o-layout--sm {
+  margin: 0 -12px;
+}
+.o-layout--sm > .o-layout__item {
+  padding-right: 12px;
+  padding-left: 12px;
+}
