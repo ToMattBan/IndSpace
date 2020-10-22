@@ -11,7 +11,7 @@ const StripItems = (props) => {
   return (
     <div className="c-stripItems o-wrapper _pvsm">
       <h1 className="c-stripItems__Name">{name}</h1>
-      <div className="o-layout--sm _df _jcc">
+      <div className="o-layout--sm@tabletV _df _jcsa">
         {items.map((item, index) => (
           <div
             key={index}
