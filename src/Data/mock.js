@@ -24,6 +24,11 @@ export const sugestions = [
         image: cover,
         link: "/IndSpace",
       },
+      {
+        name: "O telhado do sem teto",
+        image: cover,
+        link: "/IndSpace",
+      },
     ],
   },
   {
@@ -46,6 +51,11 @@ export const sugestions = [
       },
       {
         name: "A casa do nômade",
+        image: cover,
+        link: "/IndSpace",
+      },
+      {
+        name: "O telhado do sem teto",
         image: cover,
         link: "/IndSpace",
       },
@@ -74,6 +84,11 @@ export const sugestions = [
         image: cover,
         link: "/IndSpace",
       },
+      {
+        name: "O telhado do sem teto",
+        image: cover,
+        link: "/IndSpace",
+      },
     ],
   },
   {
@@ -96,6 +111,11 @@ export const sugestions = [
       },
       {
         name: "A casa do nômade",
+        image: cover,
+        link: "/IndSpace",
+      },
+      {
+        name: "O telhado do sem teto",
         image: cover,
         link: "/IndSpace",
       },
@@ -127,6 +147,11 @@ export const sugestionLogged = [
         image: cover,
         link: "/IndSpace",
       },
+      {
+        name: "O telhado do sem teto",
+        image: cover,
+        link: "/IndSpace",
+      },
     ],
   },
   {
@@ -149,6 +174,11 @@ export const sugestionLogged = [
       },
       {
         name: "A casa do nômade",
+        image: cover,
+        link: "/IndSpace",
+      },
+      {
+        name: "O telhado do sem teto",
         image: cover,
         link: "/IndSpace",
       },

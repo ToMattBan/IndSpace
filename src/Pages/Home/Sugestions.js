@@ -5,14 +5,14 @@ import { sugestions, sugestionLogged } from "../../Data/mock.js";
 
 const Sugestions = (props) => {
   return (
-    <div>
+    <div className="_phxxs _phsm@tabletV _ph@tabletH _phlg@laptop _phxxl@desktop">
       {props.isLogged === "true" &&
         sugestionLogged.map((item, key) => (
-          <StripItems content={item} key={key} />
+          <StripItems content={item} key={key} place={key} />
         ))}
 
       {sugestions.map((item, key) => (
-        <StripItems key={key} content={item} />
+        <StripItems content={item} key={key} place={key} />
       ))}
     </div>
   );

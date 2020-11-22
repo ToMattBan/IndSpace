@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "./custom.css";
 
@@ -8,12 +8,12 @@ const VideoHolder = (props) => {
   const link = props.item.link;
 
   return (
-    <Fragment>
+    <div className="_phxs">
       <Link to={link}>
-        <img src={image} />
+        <img src={image} alt={`cover ${itemName}`} />
         <div>{itemName}</div>
       </Link>
-    </Fragment>
+    </div>
   );
 };
 
